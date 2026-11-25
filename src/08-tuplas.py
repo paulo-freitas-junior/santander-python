@@ -28,3 +28,14 @@ print(minha_tupla.count(3))    # 1
 print(minha_tupla.index(5))    # Índice 4
 
 # len(tupla): embora não seja um método de tupla propriamente dito, esta função incorporada devolve o comprimento da tupla.
+print(len(minha_tupla)) # 9
+
+# Exemplo 1
+numeros = (5, 10, 15)
+for i in range(len(numeros)):
+    print(f"Posição {i}: {numeros[i]}")
+
+# Exemplo 2
+alunos = ("Ana", "Carlos", "Mariana")
+if len(alunos) > 2:
+    print("Há mais de dois alunos.")

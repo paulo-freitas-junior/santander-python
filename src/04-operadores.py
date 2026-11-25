@@ -24,13 +24,13 @@ Exponenciação (**): eleva o primeiro valor à potência do segundo.
 a = 10
 b = 3
 
-soma = a + b    # 13
-subtracao = a - b   # 7
-multiplicacao = a * b   # 30
-divisao = a / b     # 3.333333
-divisao_inteira = a // b    # 3
-modulo = a % b  # 1
-exponenciacao = a ** b  # 1000
+soma = (a + b)    # 13
+subtracao = (a - b)   # 7
+multiplicacao = (a * b)   # 30
+divisao = (a / b)     # 3.333333
+divisao_inteira = (a // b)    # 3
+modulo = (a % b)  # 1
+exponenciacao = (a ** b)  # 1000
 
 
 # COMPARAÇÃO
